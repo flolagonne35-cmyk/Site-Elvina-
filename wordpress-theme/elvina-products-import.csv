@@ -1,0 +1,34 @@
+Type,SKU,Name,Published,Is featured?,Visibility in catalog,Short description,In stock?,Stock,Manage stock?,Backorders allowed?,Regular price,Categories,Images,Parent,Attribute 1 name,Attribute 1 value(s),Attribute 1 visible,Attribute 1 global
+variable,robe-satin-ivoire,"Robe Satin Ivoire",1,1,visible,"Robe longueur midi en satin fluide, coupe cintrée et dos drapé. Une pièce qui passe du comptoir de la boutique à une soirée sans effort.",1,,0,0,,Mode,,,Taille,"XS | S | M | L",1,0
+variation,robe-satin-ivoire-xs,,,,,,1,2,1,0,89.00,,,robe-satin-ivoire,Taille,XS,,
+variation,robe-satin-ivoire-s,,,,,,1,4,1,0,89.00,,,robe-satin-ivoire,Taille,S,,
+variation,robe-satin-ivoire-m,,,,,,1,1,1,0,89.00,,,robe-satin-ivoire,Taille,M,,
+variation,robe-satin-ivoire-l,,,,,,0,0,1,0,89.00,,,robe-satin-ivoire,Taille,L,,
+variable,chemise-lin-sable,"Chemise Lin Sable",1,0,visible,"Chemise en lin lavé, coupe ample, col mao. Se porte ouverte sur un total look ou boutonnée pour le bureau.",1,,0,0,,Mode,,,Taille,"S | M | L | XL",1,0
+variation,chemise-lin-sable-s,,,,,,1,3,1,0,59.00,,,chemise-lin-sable,Taille,S,,
+variation,chemise-lin-sable-m,,,,,,1,3,1,0,59.00,,,chemise-lin-sable,Taille,M,,
+variation,chemise-lin-sable-l,,,,,,1,3,1,0,59.00,,,chemise-lin-sable,Taille,L,,
+variation,chemise-lin-sable-xl,,,,,,1,2,1,0,59.00,,,chemise-lin-sable,Taille,XL,,
+variable,pantalon-tailleur-anthracite,"Pantalon Tailleur Anthracite",1,0,visible,"Pantalon droit taille haute, tissu structuré à fine maille. Le compagnon de la chemise en lin les jours de rendez-vous.",1,,0,0,,Mode,,,Taille,"36 | 38 | 40 | 42",1,0
+variation,pantalon-tailleur-anthracite-36,,,,,,1,1,1,0,75.00,,,pantalon-tailleur-anthracite,Taille,36,,
+variation,pantalon-tailleur-anthracite-38,,,,,,1,2,1,0,75.00,,,pantalon-tailleur-anthracite,Taille,38,,
+variation,pantalon-tailleur-anthracite-40,,,,,,1,2,1,0,75.00,,,pantalon-tailleur-anthracite,Taille,40,,
+variation,pantalon-tailleur-anthracite-42,,,,,,0,0,1,0,75.00,,,pantalon-tailleur-anthracite,Taille,42,,
+variable,trench-leger-camel,"Trench Léger Camel",1,1,visible,"Trench mi-saison en gabardine légère, ceinture amovible. Une pièce arrivée en petite quantité.",1,,0,0,,Mode,,,Taille,"S | M | L",1,0
+variation,trench-leger-camel-s,,,,,,1,1,1,0,129.00,,,trench-leger-camel,Taille,S,,
+variation,trench-leger-camel-m,,,,,,0,0,1,0,129.00,,,trench-leger-camel,Taille,M,,
+variation,trench-leger-camel-l,,,,,,1,2,1,0,129.00,,,trench-leger-camel,Taille,L,,
+variable,collier-fil-or-fin,"Collier Fil d'Or Fin",1,1,visible,"Chaîne fine à porter seule ou en superposition, fermoir mousqueton. Plaqué or.",1,,0,0,,Bijoux,,,Finition,"Doré | Argenté",1,0
+variation,collier-fil-or-fin-dore,,,,,,1,5,1,0,39.00,,,collier-fil-or-fin,Finition,Doré,,
+variation,collier-fil-or-fin-argente,,,,,,1,3,1,0,39.00,,,collier-fil-or-fin,Finition,Argenté,,
+variable,boucles-perle-nacree,"Boucles d'Oreilles Perle Nacrée",1,0,visible,"Puces épurées serties d'une perle nacrée. Le petit détail qui change un visage.",1,,0,0,,Bijoux,,,Finition,"Doré | Argenté",1,0
+variation,boucles-perle-nacree-dore,,,,,,1,4,1,0,29.00,,,boucles-perle-nacree,Finition,Doré,,
+variation,boucles-perle-nacree-argente,,,,,,1,4,1,0,29.00,,,boucles-perle-nacree,Finition,Argenté,,
+variable,bracelet-maille-milanaise,"Bracelet Maille Milanaise",1,0,visible,"Bracelet souple à maille serrée, fermoir aimanté. Un classique qui ne quitte plus le poignet.",1,,0,0,,Bijoux,,,Finition,"Doré | Argenté",1,0
+variation,bracelet-maille-milanaise-dore,,,,,,1,2,1,0,45.00,,,bracelet-maille-milanaise,Finition,Doré,,
+variation,bracelet-maille-milanaise-argente,,,,,,1,1,1,0,45.00,,,bracelet-maille-milanaise,Finition,Argenté,,
+variable,bague-solitaire-zircon,"Bague Solitaire Zircon",1,1,visible,"Bague fine sertie d'un zircon rond, anneau ajustable. Discrète le jour, brillante le soir.",1,,0,0,,Bijoux,,,Taille,"50 | 52 | 54 | 56",1,0
+variation,bague-solitaire-zircon-50,,,,,,1,1,1,0,35.00,,,bague-solitaire-zircon,Taille,50,,
+variation,bague-solitaire-zircon-52,,,,,,1,2,1,0,35.00,,,bague-solitaire-zircon,Taille,52,,
+variation,bague-solitaire-zircon-54,,,,,,0,0,1,0,35.00,,,bague-solitaire-zircon,Taille,54,,
+variation,bague-solitaire-zircon-56,,,,,,1,3,1,0,35.00,,,bague-solitaire-zircon,Taille,56,,
