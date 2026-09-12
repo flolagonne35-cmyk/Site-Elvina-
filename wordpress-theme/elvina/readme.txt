@@ -10,7 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Theme sur mesure pour la boutique Elvina (mode & bijoux), avec support
 WooCommerce natif. Voir wordpress-theme/README-INSTALLATION.md a la racine
 du depot pour la marche a suivre complete (installation, import du
-catalogue, choix d'une extension caisse).
+catalogue, prise en main de la caisse comptoir).
 
 == Description ==
 
@@ -22,9 +22,16 @@ catalogue, choix d'une extension caisse).
   limite") calculees a partir du stock reel de chaque variante (taille /
   finition), pour ne jamais laisser un article vendu apparaitre encore
   disponible.
+* Caisse comptoir (WooCommerce > Caisse comptoir) : ecran admin pour
+  enregistrer une vente en boutique. Cree une vraie commande WooCommerce
+  et decremente le meme stock que le site, sans gerer de paiement carte
+  (le terminal de paiement reste separe).
 * Formulaire de contact natif (sans extension), via wp_mail().
 
 == Changelog ==
+
+= 1.1.0 =
+* Ajout de la caisse comptoir (WooCommerce > Caisse comptoir).
 
 = 1.0.0 =
 * Version initiale, portee depuis le prototype statique.

@@ -75,20 +75,30 @@ Les produits importent **sans photo** (le prototype n'en avait pas non
 plus — juste des aplats de couleur). Ajoutez de vraies photos ensuite
 dans **Produits > [nom du produit] > Image mise en avant / Galerie**.
 
-## 7. Choisir une extension caisse (le "logiciel de caisse")
+## 7. La caisse comptoir (déjà incluse dans le thème)
 
-C'est la pièce qui manquait dans le prototype statique. Dans l'admin :
-**Extensions > Ajouter**, cherchez "point of sale" ou "POS for
-WooCommerce", et comparez les options actuelles (notes, nombre
-d'installations, date de dernière mise à jour) — je préfère ne pas vous
-recommander un nom précis sans pouvoir vérifier son état aujourd'hui,
-les extensions évoluent vite. Ce que vous cherchez : une extension qui
-tourne **à l'intérieur de ce même WooCommerce** (pas un service tiers
-séparé), pour que la caisse et le site continuent de lire le même stock
-que celui importé à l'étape 6.
+Le thème inclut maintenant son propre écran de caisse — pas besoin de
+chercher une extension. Dans l'admin : **WooCommerce > Caisse comptoir**.
 
-Si aucune ne convient, l'alternative reste Square ou SumUp en caisse
-séparée, avec leur connecteur WooCommerce officiel.
+Cherchez un article, dépliez-le, choisissez la taille/finition vendue,
+cliquez **"Vendu en boutique"**. Ça crée une vraie commande WooCommerce
+(visible dans **WooCommerce > Commandes**) et décrémente le même stock
+que celui importé à l'étape 6 — le site reflète la vente en quelques
+secondes. Le paiement carte se prend toujours sur votre terminal habituel
+à côté : cet écran ne fait que synchroniser le stock, rien d'autre.
+
+**À tester en priorité une fois installé** (cette partie n'a pas pu être
+vérifiée sur un vrai WooCommerce dans cette session) : vendez un article
+de test depuis cet écran, vérifiez qu'une commande "Terminée" apparaît
+bien dans WooCommerce > Commandes avec la bonne quantité et le bon
+montant, puis vérifiez que le stock a baissé sur la fiche produit et sur
+le site public.
+
+Si vous préférez malgré tout un encaissement carte intégré directement
+dans une caisse (plutôt que votre terminal à côté), l'alternative reste
+Square ou SumUp en caisse séparée, avec leur connecteur WooCommerce
+officiel, ou une extension "point of sale" trouvée dans **Extensions >
+Ajouter**.
 
 ## 8. Activer un vrai moyen de paiement
 

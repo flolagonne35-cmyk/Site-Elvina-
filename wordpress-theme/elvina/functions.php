@@ -5,7 +5,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'ELVINA_VERSION', '1.0.0' );
+define( 'ELVINA_VERSION', '1.1.0' );
 
 function elvina_setup() {
 	load_theme_textdomain( 'elvina', get_template_directory() . '/languages' );
