@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boutique — Elvina</title>
+<meta name="description" content="Toute la collection Elvina : mode et bijoux, avec la disponibilité réelle de chaque taille et coloris.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;1,6..96,400&family=Jost:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" href="index.html">Elvina</a>
+    <nav class="main-nav" id="main-nav">
+      <a href="index.html">Accueil</a>
+      <a href="boutique.html" class="is-active">Boutique</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a class="cart-link" href="panier.html">Panier <span class="cart-count" id="cart-count">0</span></a>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap block">
+  <div class="section-head">
+    <div>
+      <p class="eyebrow">Collection</p>
+      <h2>La boutique</h2>
+    </div>
+    <div class="filter-tabs">
+      <a href="boutique.html" class="filter-tab" data-cat="all">Tout</a>
+      <a href="boutique.html?cat=mode" class="filter-tab" data-cat="mode">Mode</a>
+      <a href="boutique.html?cat=bijoux" class="filter-tab" data-cat="bijoux">Bijoux</a>
+    </div>
+  </div>
+
+  <noscript><p class="noscript-note">Activez JavaScript pour afficher le catalogue et les disponibilités.</p></noscript>
+  <div class="product-grid" id="product-grid"></div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <p class="logo-sm">Elvina</p>
+      <p>Mode &amp; bijoux — boutique physique et en ligne, même stock.</p>
+    </div>
+    <div class="footer-cols">
+      <div>
+        <p class="footer-h">Boutique</p>
+        <a href="boutique.html">Toute la collection</a>
+        <a href="boutique.html?cat=mode">Mode</a>
+        <a href="boutique.html?cat=bijoux">Bijoux</a>
+      </div>
+      <div>
+        <p class="footer-h">Elvina</p>
+        <a href="a-propos.html">Notre histoire</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <p class="footer-h">Boutique physique</p>
+        <p>Ouverture prochaine — adresse et horaires à venir.</p>
+      </div>
+    </div>
+  </div>
+  <p class="footer-bottom">© 2026 Elvina.</p>
+</footer>
+
+<script src="assets/products.js"></script>
+<script src="assets/site.js"></script>
+</body>
+</html>
