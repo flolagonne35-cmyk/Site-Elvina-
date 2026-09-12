@@ -45,3 +45,4 @@ add_action( 'wp_enqueue_scripts', 'elvina_scripts' );
 
 require get_template_directory() . '/inc/woocommerce.php';
 require get_template_directory() . '/inc/contact-form.php';
+require get_template_directory() . '/inc/pos.php';

@@ -1,0 +1,70 @@
+.elvina-pos {
+  --elvina-ink: #241b24;
+  --elvina-muted: #8a7e82;
+  --elvina-surface: #ffffff;
+  --elvina-surface-2: #f1e8e4;
+  --elvina-border: #e4d9d4;
+  --elvina-stock-in: #3f6e53;
+  --elvina-stock-in-bg: #e6efe8;
+  --elvina-stock-low: #96591f;
+  --elvina-stock-low-bg: #f3e6d4;
+  --elvina-stock-last: #7c3f5c;
+  --elvina-stock-last-bg: #f1e0e9;
+  --elvina-stock-out: #963a30;
+  --elvina-stock-out-bg: #f3e0dd;
+  max-width: 1180px;
+}
+
+.elvina-pos .description { color: var(--elvina-muted); max-width: 68ch; }
+
+.elvina-pos-search {
+  width: 100%;
+  max-width: 32rem;
+  font-size: 14px;
+  padding: .7rem .9rem;
+  border-radius: 8px;
+  border: 1px solid var(--elvina-border);
+  margin: 1rem 0 1.4rem;
+  display: block;
+}
+
+.elvina-pos-layout { display: grid; grid-template-columns: 1.6fr 1fr; gap: 1.4rem; align-items: start; }
+@media (max-width: 900px) { .elvina-pos-layout { grid-template-columns: 1fr; } }
+
+.elvina-pos-list { display: flex; flex-direction: column; gap: .6rem; }
+.elvina-pos-item { border: 1px solid var(--elvina-border); background: var(--elvina-surface); border-radius: 10px; overflow: hidden; }
+.elvina-pos-item-head { display: flex; align-items: center; gap: .9rem; padding: .8rem 1rem; cursor: pointer; width: 100%; background: none; border: none; text-align: left; flex-wrap: wrap; font-size: 14px; color: var(--elvina-ink); }
+.elvina-pos-item-head:hover { background: var(--elvina-surface-2); }
+.elvina-pos-item-name { flex: 1; min-width: 0; }
+.elvina-pos-item-name strong { display: block; }
+.elvina-pos-chevron { color: var(--elvina-muted); transition: transform .15s ease; margin-left: auto; }
+.elvina-pos-item.is-open .elvina-pos-chevron { transform: rotate(90deg); }
+
+.elvina-pos-variants { display: none; padding: 0 1rem 1rem; border-top: 1px solid var(--elvina-border); }
+.elvina-pos-item.is-open .elvina-pos-variants { display: block; padding-top: 1rem; }
+.elvina-pos-variant-grid { display: flex; flex-wrap: wrap; gap: .6rem; margin-bottom: 1rem; }
+.elvina-pos-variant-btn { border: 1px solid var(--elvina-border); background: var(--elvina-surface); border-radius: 8px; padding: .5rem .8rem; cursor: pointer; display: flex; flex-direction: column; gap: .3rem; align-items: flex-start; color: var(--elvina-ink); font-size: 13px; }
+.elvina-pos-variant-btn.is-selected { border-color: var(--elvina-ink); background: var(--elvina-surface-2); }
+.elvina-pos-variant-btn:disabled { opacity: .45; cursor: not-allowed; }
+
+.elvina-pos-badge { display: inline-block; font-size: 11px; padding: .15rem .55rem; border-radius: 999px; font-weight: 600; }
+.elvina-pos-badge--in { background: var(--elvina-stock-in-bg); color: var(--elvina-stock-in); }
+.elvina-pos-badge--low { background: var(--elvina-stock-low-bg); color: var(--elvina-stock-low); }
+.elvina-pos-badge--last { background: var(--elvina-stock-last-bg); color: var(--elvina-stock-last); }
+.elvina-pos-badge--out { background: var(--elvina-stock-out-bg); color: var(--elvina-stock-out); }
+
+.elvina-pos-confirm { display: none; align-items: center; gap: .8rem; flex-wrap: wrap; background: var(--elvina-surface-2); border-radius: 8px; padding: .8rem; }
+.elvina-pos-confirm.is-visible { display: flex; }
+.elvina-pos-confirm label { font-size: 13px; color: var(--elvina-muted); }
+.elvina-pos-confirm input[type="number"] { width: 4rem; margin-left: .4rem; }
+.elvina-pos-sell-btn { margin-left: auto; }
+
+.elvina-pos-ticket { border: 1px solid var(--elvina-border); background: var(--elvina-surface); border-radius: 10px; padding: 1.1rem; position: sticky; top: 32px; }
+.elvina-pos-ticket h2 { margin-top: 0; font-size: 15px; }
+.elvina-pos-ticket-list { list-style: none; margin: 0 0 1rem; padding: 0; display: flex; flex-direction: column; gap: .5rem; max-height: 20rem; overflow-y: auto; }
+.elvina-pos-ticket-empty { color: var(--elvina-muted); font-size: 13px; }
+.elvina-pos-ticket-line { display: flex; justify-content: space-between; gap: .6rem; font-size: 13px; border-bottom: 1px dashed var(--elvina-border); padding-bottom: .4rem; }
+.elvina-pos-ticket-total { display: flex; justify-content: space-between; border-top: 1px solid var(--elvina-border); padding-top: .8rem; font-weight: 600; }
+.elvina-pos-flash { display: none; background: var(--elvina-stock-in-bg); color: var(--elvina-stock-in); border-radius: 8px; padding: .5rem .8rem; font-size: 13px; margin-top: .9rem; }
+.elvina-pos-flash.is-visible { display: block; }
+.elvina-pos-flash.is-error { background: var(--elvina-stock-out-bg); color: var(--elvina-stock-out); }
